@@ -50,9 +50,9 @@ systemctl restart wg-quick@wg0
 
   ```
 
-<img src="https://img.shields.io/badge/DESCRIPTION-%3A-blueviolet.svg">
+<h2 align="center"><img src="https://img.shields.io/badge/DESCRIPTION-%3A-blueviolet.svg"></h2>
 
-  <img src="https://img.shields.io/badge/-Service & Port-red.svg">
+<img src="https://img.shields.io/badge/-SERVICES & PORT-red.svg">
 
   - OpenSSH                 : 22
   - OpenVPN                 : TCP 1194, UDP 2200, SSL 110
@@ -80,7 +80,7 @@ systemctl restart wg-quick@wg0
   - XRAY Vless Ws None Tls  : 80
   - XRAY Trojan Ws None Tls : 80
 
- <img src="https://img.shields.io/badge/%3E%3E%3E-Server%20Information%20%26%20Other%20Features-red.svg">
+<img src="https://img.shields.io/badge/%3E%3E%3E-Server%20Information%20%26%20Other%20Features-red.svg">
 
    - Timezone                 : Asia/Kuala_Lumpur (GMT +8)
    - Fail2Ban                 : [ON]
