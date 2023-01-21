@@ -1,6 +1,6 @@
 # multiportssh
 
- <h2 align="center">AutoScript VPN By HANGTUAH <img src="https://img.shields.io/badge/Version-6.0-blue.svg"></h2>
+ <h2 align="center">AutoScript VPN By YoLoNet <img src="https://img.shields.io/badge/Version-6.0-blue.svg"></h2>
 
 
 <h2 align="center"> Supported Linux Distribution</h2>
@@ -100,16 +100,13 @@ systemctl restart wg-quick@wg0
 ## Credit :
 
 *   HANGTUAH
-
 *   Pakya
-
 *   Vinstech
-
+*   REDVPN
 *   Project D
-
 *   V2ray
 
 <p align="center">
-  <a><img src="https://img.shields.io/badge/Copyright%20©-MATKILAU%20AutoScriptVPN%202022.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
+  <a><img src="https://img.shields.io/badge/YoLoNet-VPN%20AutoScript%202023.%20All%20rights%20reserved...-blue" style="max-width:200%;">
     </p>
    </p>
