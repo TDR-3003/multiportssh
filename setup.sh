@@ -1,3 +1,4 @@
+#!/bin/bash
 #wget https://github.com/${GitUser}/
 GitUser="YoloNet"
 # Color Validation
