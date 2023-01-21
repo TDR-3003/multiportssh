@@ -1,6 +1,4 @@
-<h2 align="center">AutoScript VPN By YoLoNet <img src="https://img.shields.io/badge/%3E%3E%3E%20AUTOSCRIPT-MULTIPORT%20SSH%20%26%20XRAY-brightgreen.svg"></h2>
-
-<img src="https://img.shields.io/badge/%3E%3E%3E%20AUTOSCRIPT-MULTIPORT%20SSH%20%26%20XRAY-brightgreen">
+<h2 align="center"><img src="https://img.shields.io/badge/%3E%3E%3E%20AUTOSCRIPT-MULTIPORT%20SSH%20%26%20XRAY-brightgreen.svg"></h2>
 
  <h2 align="center">AutoScript VPN By YoLoNet <img src="https://img.shields.io/badge/Version-1.0-blue.svg"></h2>
 
