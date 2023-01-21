@@ -97,14 +97,13 @@ systemctl restart wg-quick@wg0
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-<img src="https://img.shields.io/badge/CREDIT-%3A-blueviolet.svg"> <img src="https://img.shields.io/badge/-Pakya-blue.svg"> <img src="https://img.shields.io/badge/-Vinstech-blue.svg">
-
-*   HANGTUAH
-*   Pakya
-*   Vinstech
-*   REDVPN
-*   Project D
-*   V2ray
+<img src="https://img.shields.io/badge/CREDIT-%3A-blueviolet.svg"> 
+ <img src="https://img.shields.io/badge/-Pakya-blue.svg">
+ <img src="https://img.shields.io/badge/-Vinstech-blue.svg">
+ <img src="https://img.shields.io/badge/-REDVPN-blue.svg">
+ <img src="https://img.shields.io/badge/-HANGTUAH-blue.svg">
+ <img src="https://img.shields.io/badge/-Project D-blue.svg">
+ <img src="https://img.shields.io/badge/-V2RAY-blue.svg">
 
 <p align="center">
   <a><img src="https://img.shields.io/badge/YoLoNet-VPN%20AutoScript%202023.%20All%20rights%20reserved...-blue" style="max-width:200%;">
