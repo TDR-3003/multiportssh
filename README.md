@@ -52,7 +52,7 @@ systemctl restart wg-quick@wg0
 
 <img src="https://img.shields.io/badge/DESCRIPTION-%3A-blueviolet.svg">
 
-  Service & Port
+  <img src="https://img.shields.io/badge/-Service & Port-red.svg">
 
   - OpenSSH                 : 22
   - OpenVPN                 : TCP 1194, UDP 2200, SSL 110
@@ -80,7 +80,8 @@ systemctl restart wg-quick@wg0
   - XRAY Vless Ws None Tls  : 80
   - XRAY Trojan Ws None Tls : 80
 
- >>> Server Information & Other Features
+ <img src="https://img.shields.io/badge/%3E%3E%3E-Server%20Information%20%26%20Other%20Features-red.svg">
+
    - Timezone                 : Asia/Kuala_Lumpur (GMT +8)
    - Fail2Ban                 : [ON]
    - DDOS Dflate              : [ON]
@@ -97,7 +98,7 @@ systemctl restart wg-quick@wg0
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-<img src="https://img.shields.io/badge/CREDIT-%3A-blueviolet.svg"> <img src="https://img.shields.io/badge/-Pakya-blue.svg"><img src="https://img.shields.io/badge/-Vinstech-blue.svg"><img src="https://img.shields.io/badge/-REDVPN-blue.svg"> <img src="https://img.shields.io/badge/-HANGTUAH-blue.svg"> <img src="https://img.shields.io/badge/-Project D-blue.svg"> <img src="https://img.shields.io/badge/-V2RAY-blue.svg">
+<img src="https://img.shields.io/badge/CREDIT-%3A-blueviolet.svg"> <img src="https://img.shields.io/badge/-Pakya-blue.svg"> <img src="https://img.shields.io/badge/-Vinstech-blue.svg"> <img src="https://img.shields.io/badge/-REDVPN-blue.svg"> <img src="https://img.shields.io/badge/-HANGTUAH-blue.svg"> <img src="https://img.shields.io/badge/-Project D-blue.svg"> <img src="https://img.shields.io/badge/-V2RAY-blue.svg">
 
 <p align="center">
   <a><img src="https://img.shields.io/badge/YoLoNet-VPN%20AutoScript%202023.%20All%20rights%20reserved...-blue" style="max-width:200%;">
