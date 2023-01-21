@@ -97,7 +97,7 @@ systemctl restart wg-quick@wg0
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
- <h2 align="left">AutoScript VPN By YoLoNet <img src="https://img.shields.io/badge/CREDIT-%3A-blueviolet.svg"></h2>
+AutoScript VPN By YoLoNet <img src="https://img.shields.io/badge/CREDIT-%3A-blueviolet.svg">
 
 *   HANGTUAH
 *   Pakya
