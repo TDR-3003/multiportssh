@@ -97,7 +97,7 @@ systemctl restart wg-quick@wg0
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-<img src="https://img.shields.io/badge/CREDIT-%3A-blueviolet.svg">
+<img src="https://img.shields.io/badge/CREDIT-%3A-blueviolet.svg"> <img src="https://img.shields.io/badge/-Pakya-blue.svg"> <img src="https://img.shields.io/badge/-Vinstech-blue.svg">
 
 *   HANGTUAH
 *   Pakya
