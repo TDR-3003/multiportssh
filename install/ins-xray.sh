@@ -7,7 +7,7 @@ export MYIP=$(curl -sS ipv4.icanhazip.com)
 # // GETTING
 VALIDITY () {
     today=`date -d "0 days" +"%Y-%m-%d"`
-    Exp1=$(curl -sS https://raw.githubusercontent.com/${GitUser}/allow/main/ipvps.conf | grep $MYIP | awk '{print $4}')
+    Exp1=$(curl -sS https://raw.githubusercontent.com/YoloNet/allow/main/ipvps.conf | grep $MYIP | awk '{print $4}')
     if [[ $today < $Exp1 ]]; then
     echo -e "\e[32mYOUR SCRIPT ACTIVE..\e[0m"
     else
@@ -16,7 +16,7 @@ VALIDITY () {
     exit 0
 fi
 }
-IZIN=$(curl -sS https://raw.githubusercontent.com/${GitUser}/allow/main/ipvps.conf | awk '{print $5}' | grep $MYIP)
+IZIN=$(curl -sS https://raw.githubusercontent.com/YoloNet/allow/main/ipvps.conf | awk '{print $5}' | grep $MYIP)
 if [ $MYIP = $IZIN ]; then
 echo -e "\e[32mPermission Accepted...\e[0m"
 VALIDITY
@@ -1196,10 +1196,10 @@ systemctl restart xray@trojannone
 
 # download script
 cd /usr/bin
-wget -O port-xray "https://raw.githubusercontent.com/${GitUser}/multiportssh/main/change-port/port-xray.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/${GitUser}/multiportssh/main/cert.sh"
-wget -O trojaan "https://raw.githubusercontent.com/${GitUser}/multiportssh/main/menu/trojaan.sh"
-wget -O xraay "https://raw.githubusercontent.com/${GitUser}/multiportssh/main/menu/xraay.sh"
+wget -O port-xray "https://raw.githubusercontent.com/YoloNet/multiportssh/main/change-port/port-xray.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/YoloNet/multiportssh/main/cert.sh"
+wget -O trojaan "https://raw.githubusercontent.com/YoloNet/multiportssh/main/menu/trojaan.sh"
+wget -O xraay "https://raw.githubusercontent.com/YoloNet/multiportssh/main/menu/xraay.sh"
 chmod +x port-xray
 chmod +x certv2ray
 chmod +x trojaan

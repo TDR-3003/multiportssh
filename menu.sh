@@ -20,15 +20,15 @@ clear
 uptime="$(uptime -p | cut -d " " -f 2-10)"
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/${GitUser}/allow/main/ipvps.conf | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/YoloNet/allow/main/ipvps.conf | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
 # Order ID
 rm -f /usr/bin/ver
-user=$(curl https://raw.githubusercontent.com/${GitUser}/allow/main/ipvps.conf | grep $MYIP | awk '{print $3}')
+user=$(curl https://raw.githubusercontent.com/YoloNet/allow/main/ipvps.conf | grep $MYIP | awk '{print $3}')
 echo "$user" >/usr/bin/ver
 # validity
 rm -f /usr/bin/e
-valid=$(curl https://raw.githubusercontent.com/${GitUser}/allow/main/ipvps.conf | grep $MYIP | awk '{print $4}')
+valid=$(curl https://raw.githubusercontent.com/YoloNet/allow/main/ipvps.conf | grep $MYIP | awk '{print $4}')
 echo "$valid" >/usr/bin/e
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
@@ -36,7 +36,7 @@ oid=$(cat /usr/bin/ver)
 exp=$(cat /usr/bin/e)
 clear
 version=$(cat /home/ver)
-ver=$( curl https://raw.githubusercontent.com/${GitUser}/version/main/version.conf )
+ver=$( curl https://raw.githubusercontent.com/YoloNet/version/main/version.conf )
 clear
 # CEK UPDATE
 Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Green_background_prefix="\033[42;37m" && Red_background_prefix="\033[41;37m" && Font_color_suffix="\033[0m"
@@ -44,7 +44,7 @@ Info1="${Green_font_prefix}($version)${Font_color_suffix}"
 Info2="${Green_font_prefix}(LATEST VERSION)${Font_color_suffix}"
 Error="Version ${Green_font_prefix}[$ver]${Font_color_suffix} available${Red_font_prefix}[Please Update]${Font_color_suffix}"
 version=$(cat /home/ver)
-new_version=$( curl https://raw.githubusercontent.com/${GitUser}/version/main/version.conf | grep $version )
+new_version=$( curl https://raw.githubusercontent.com/YoloNet/version/main/version.conf | grep $version )
 #Status Version
 if [ $version = $new_version ]; then
 stl="${Info2}"
@@ -75,7 +75,7 @@ Info="${Green_font_prefix}(Active)${Font_color_suffix}"
 Error="${Green_font_prefix}${Font_color_suffix}${Red_font_prefix}[EXPIRED]${Font_color_suffix}"
 
 today=$(date -d "0 days" +"%Y-%m-%d")
-Exp1=$(curl https://raw.githubusercontent.com/${GitUser}/allow/main/ipvps.conf | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://raw.githubusercontent.com/YoloNet/allow/main/ipvps.conf | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
     sts="${Info}"
 else

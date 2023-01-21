@@ -22,7 +22,7 @@ Port_OHP='8585';
 
 #Installing ohp Server
 cd 
-wget -O /usr/local/bin/ohpd "https://raw.githubusercontent.com/${GitUser}/multiportssh/main/ohpd"
+wget -O /usr/local/bin/ohpd "https://raw.githubusercontent.com/YoloNet/multiportssh/main/ohpd"
 chmod +x /usr/local/bin/ohpd
 
 #Buat Service Untuk OHP Dropbear
