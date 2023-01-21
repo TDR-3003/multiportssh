@@ -50,7 +50,7 @@ systemctl restart wg-quick@wg0
 
   ```
 
-## Description :
+ <h2 align="center">AutoScript VPN By YoLoNet <img src="https://img.shields.io/badge/DESCRIPTION-%3A-blueviolet.svg"></h2>
 
   Service & Port
 
@@ -97,7 +97,7 @@ systemctl restart wg-quick@wg0
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## Credit :
+ <h2 align="center">AutoScript VPN By YoLoNet <img src="https://img.shields.io/badge/CREDIT-%3A-blueviolet.svg"></h2>
 
 *   HANGTUAH
 *   Pakya
